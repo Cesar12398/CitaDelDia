@@ -15,11 +15,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="22sp"
-        android:text="TextView"
+        android:text="Aquí aparecera la cita"
         android:textAlignment="center"
         android:padding="16dp"
         android:gravity="center"
-        android:textStyle="bold"
+        android:textStyle="italic"
         tools:layout_editor_absoluteX="176dp"
         tools:layout_editor_absoluteY="76dp" />
 
@@ -27,11 +27,12 @@
         android:id="@+id/tv_autor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="Autor"
         android:textSize="18sp"
         android:padding="8dp"
         android:gravity="center"
-        android:textStyle="italic"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="178dp"
         tools:layout_editor_absoluteY="165dp" />
 
